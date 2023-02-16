@@ -1,7 +1,5 @@
 #Crie um programa que leia um número real qualquer pelo teclado e mostre na tela a sua proporção inteira.
 
-import random, math
+numero = float(input('Digite um valor: '))
 
-numero = random.random()
-
-print('O número digitado tem a parte inteira de {}'.format(math.ceil(numero)))
+print('O valor digitado foi {}, e o seu valor inteiro é {}'.format(numero, int(numero)))
