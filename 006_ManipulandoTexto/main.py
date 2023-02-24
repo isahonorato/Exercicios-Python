@@ -7,3 +7,5 @@ print(frase)
 
 #Análise
 frase.count('o') #contando quantas vezes há a letra "o"
+
+frase.find('ami') #contando em qual posição ele encontrou o "ami"
