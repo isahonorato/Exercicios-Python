@@ -21,4 +21,9 @@ frase.strip() #Remove os espaços que houverem no começo da frase e no final
 frase.rstrip() #Remove somente os últimos espaços (direita) da string
 frase.lstrip() #Remove somente os espacços do começo (esquerda)
 
-#26:38
+#Divisão
+frase.split() #Pega os espaços da sua frase e realiza uma divisão. Ele recomeça a numeração. 
+
+#Junção
+'-'.join(frase) #Você junta todos os elementos da frase e separa com -
+
