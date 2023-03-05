@@ -42,3 +42,20 @@
 #print(f'{consumo:.3f} km/l')
 
 
+#numero = int(input())
+#horas = int(input())
+#valorHora = float(input())
+#
+#salario = horas * valorHora
+#
+#print(f'NUMBER = {numero}')
+#print(f'SALARY = U$ {salario:.2f}') 
+
+
+nome = str(input())
+salarioFixo = float(input())
+totalVendasDinheiro = float(input())
+
+valorFinal = (((totalVendasDinheiro * 15) / 100) + salarioFixo)
+
+print(f'TOTAL = R$ {valorFinal:.2f}')
