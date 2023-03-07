@@ -2,9 +2,12 @@
 
 numero = int(input('Digite um número: '))
 
-unidade = numero // 1
+unidade = numero // 1 % 10
+dezena = numero // 10 % 10
+centena = numero // 100 % 10
+milhar = numero // 1000 % 10
 
-print('Unidade: '.format())
-print('Dezena: '.format())
-print('Centena: '.format())
-print('Milhar: '.format())
+print(f'Unidade: {unidade}')
+print(f'Dezena: {dezena}')
+print(f'Centena: {centena}')
+print(f'Milhar: {milhar}')
